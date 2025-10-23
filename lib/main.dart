@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  // runApp(const MyApp());
+  runApp(const App());
 }
 
 class MyApp extends StatelessWidget {
@@ -117,5 +117,14 @@ class _MyHomePageState extends State<MyHomePage> {
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
+  }
+}
+
+class App extends StatelessWidget {
+  const App({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
   }
 }
